@@ -26,6 +26,6 @@ public class Jab : Action
         {
             (Target as Enemy).TakeDamage(Damage);
         }
-        Player.instance.CheckActions();
+        //Player.instance.CheckActions();
     }
 }

@@ -32,6 +32,7 @@ public class EnemyBehaviour : ScriptableObject
             {
                 yield return null;
             }
+            yield return new WaitForSeconds(0.15f);
 
         }
         var newPoints = (source as Enemy).actionPoints;

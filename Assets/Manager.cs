@@ -22,6 +22,7 @@ public class Manager : MonoBehaviour
 
     IEnumerator Activations()
     {
+        yield return new WaitForSeconds(0.35f);
         foreach(var enm in enemies)
         {
             enm.Activate();
